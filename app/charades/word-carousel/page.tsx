@@ -144,7 +144,7 @@ const TIMER_DURATION = 45; // seconds
 export default function WordCarouselPage() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const selectedCategory = searchParams.get('category');
+  const selectedCategory = searchParams.get('category') ?? [];
 
   const [isStarted, setIsStarted] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
