@@ -1,0 +1,23 @@
+export const CATEGORIES = [
+  { name: 'Animals' },
+  { name: 'Movies' },
+  { name: 'Sports' },
+  { name: 'Music' },
+  { name: 'Food' },
+  { name: 'Technology' },
+  { name: 'History' },
+  { name: 'Geography' },
+  { name: 'Professions' },
+  { name: 'Books' },
+  { name: 'TV Shows' },
+  { name: 'Celebrities' },
+  { name: 'Holidays' },
+  { name: 'Transportation' },
+  { name: 'Emotions' },
+  { name: 'Games' },
+  { name: 'Superheroes' },
+  { name: 'Fairy Tales' },
+  { name: 'Weather' },
+  { name: 'Inventions' },
+];
+
