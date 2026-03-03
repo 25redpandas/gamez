@@ -175,6 +175,8 @@ function GameContent() {
 
   // Speech recognition effect
   useEffect(() => {
+      return;
+
     // Check if browser supports speech recognition
     const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
 
